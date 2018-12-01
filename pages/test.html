@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>😱 HTML</title>
+
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      p {
+        /* text-align: center; */
+        color: #222;
+      }
+
+      kbd {
+        background-color: #eee;
+        border-radius: 3px;
+        border: 1px solid #b4b4b4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+        color: #333;
+        display: inline-block;
+        font-size: 0.85em;
+        font-weight: 700;
+        line-height: 1;
+        padding: 2px 4px;
+        white-space: nowrap;
+
+        font-size: 2rem;
+      }
+
+      .hr {
+        height: 5px;
+        border: none;
+        border-top: 3px double #333;
+        text-align: center;
+        overflow: visible;
+      }
+
+      .hr--top::after {
+        content: '△';
+        position: relative;
+        top: -15px;
+        background-color: #fff;
+        padding: 2px;
+      }
+
+      .hr--bottom::after {
+        content: '▽';
+        position: relative;
+        top: -9px;
+        background-color: #fff;
+        padding: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <hr size="3" noshade />
+      <h1>THE ADVENTURES OF <br />SHERLOCK HOLMES</h1>
+      <br />
+      <h3>by</h3>
+      <br />
+      <h2>SIR ARTHUR CONAN DOYLE</h2>
+      <hr size="3" noshade />
+    </center>
+
+    <blockquote>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex unde voluptas omnis inventore possimus minima
+      maiores repellat dignissimos eum repellendus eaque quaerat molestias harum hic sit, quibusdam veniam temporibus.
+    </blockquote>
+  </body>
+</html>
